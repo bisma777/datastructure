@@ -1,0 +1,63 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner-inner {
+  background-image: url("../Images/p3.jpg");
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+a, span, button {
+  color: #ffff !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #ffff;
+  font-size: 17px;
+}
+
+.dropdown-menu {
+  border-color: #ffff;
+}
+
+.dropdown-item:hover {
+  color: black !important;
+}
+
+nav.active {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 35%;
+  border-radius: 5px;
+  background-color: #ffff;
+}
+
+.outerbox {
+  background-image: url("../Images/p5.jpg");
+  overflow: hidden;
+  background-size: cover;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style1.css.map */

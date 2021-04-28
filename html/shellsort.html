@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Shell Sort</title>
+</head>
+<body class="outerbox ">
+    <nav class="navbar navbar-expand-lg  bg-transparent fixed-top nvgtn">
+        <a class="navbar-brand" href="#">Company</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span >Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sorting Methods
+                </a>
+                <div class="dropdown-menu bg-transparent " aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../html/selectionsort.html">Selection Sort</a>
+                <a class="dropdown-item" href="../html/insertionsort.html">Insertion Sort</a>
+                <a class="dropdown-item" href="../html/shellsort.html">Shell Sort</a>
+                <a class="dropdown-item" href="../html/bublesort.html">Bubble Sort</a>
+                </div>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="../html/Home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item">
+            <a class="nav-link" href="../html/Linearsrch.html">Linear Search</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="../html/Binarysrch.html">Binary Search</a>
+            </li>
+            
+        </ul>
+        </div>
+    </nav>
+    <div class="justify-content-center align-items-center box col-10 col-md-8 col-lg-6  card">
+        <div class="card-body">
+            <h4 class="card-title" style="text-align: center;">Shell Sort</h4>
+            <p style="text-align: center;">Enter the unsorted elements</p>
+            <input type="text" placeholder="Enter unordered list" id="shelltsort" style="width:350px"></br>
+            <button onclick="pushDataShellsort();" class="btn btn-dark mt-2">Submit</button>
+            <p id="shlText"></p>
+            <button onclick="shellSort(shellArr);"class="btn btn-dark mt-2">Sort</button>
+            <p id="shllText"></p>
+        </div>
+    </div>
+    <script src="../js/shellsort.js"></script>
+</body>
+</html>
